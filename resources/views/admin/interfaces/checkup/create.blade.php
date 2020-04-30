@@ -9,7 +9,7 @@
         </div>
         <div class="box-body">
             {{--<a href="{{ url('/') }}" class="btn btn-success">Dashboard</a>--}}
-            <a href="{{ url('/product',true) }}" class="btn btn-success">Product</a>
+            <a href="{{ url('/product') }}" class="btn btn-success">Product</a>
             {{--<a href="{{ url('/optician/create') }}" class="btn btn-success">New optician</a>--}}
         </div>
         <!-- /.box-body -->

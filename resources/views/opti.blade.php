@@ -7,7 +7,7 @@
     <title>Opti Care</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('css/styles.css',true)}}">
+    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
     <!-- icons -->
     <script src="https://kit.fontawesome.com/bf96bc6662.js" crossorigin="anonymous"></script>
 
@@ -311,7 +311,7 @@
 </footer>
 
 
-<script src="{{asset('js/index.js',true)}}" charset="utf-8"></script>
+<script src="{{asset('js/index.js')}}" charset="utf-8"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
@@ -323,7 +323,7 @@
 <!-- JQuery -->
 <!-- text change -->
 
-<script src="{{asset('js/jquery-textTweener.min.js',true)}}"></script>
+<script src="{{asset('js/jquery-textTweener.min.js')}}"></script>
 
 <script>
     $("#texttween").TextTweener({

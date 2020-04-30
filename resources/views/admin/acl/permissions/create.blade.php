@@ -8,12 +8,12 @@
             <h3 class="box-title">Dashboard / Access Control / Permissions / Create</h3>
         </div>
         <div class="box-body">
-            <a href="{{ url('/settings/access-control/permissions',true) }}" class="btn btn-success"> Back <i class="fa fa-backward"></i></a>
-            <a href="{{ url('/settings',true) }}" class="btn btn-success"> Settings</a>
-            <a href="{{ url('/settings/access-control',true) }}" class="btn btn-success"> Access Control</a>
-            <a href="{{ url('/settings/access-control/permissions',true) }}" class="btn btn-success"> Permissions</a>
-            <a href="{{ url('/settings/access-control/roles',true) }}" class="btn btn-success"> Roles</a>
-            <a href="{{ url('/settings/access-control/user-management',true) }}" class="btn btn-success"> User Management</a>
+            <a href="{{ url('/settings/access-control/permissions') }}" class="btn btn-success"> Back <i class="fa fa-backward"></i></a>
+            <a href="{{ url('/settings') }}" class="btn btn-success"> Settings</a>
+            <a href="{{ url('/settings/access-control') }}" class="btn btn-success"> Access Control</a>
+            <a href="{{ url('/settings/access-control/permissions') }}" class="btn btn-success"> Permissions</a>
+            <a href="{{ url('/settings/access-control/roles') }}" class="btn btn-success"> Roles</a>
+            <a href="{{ url('/settings/access-control/user-management') }}" class="btn btn-success"> User Management</a>
         </div>
         <!-- /.box-body -->
     </div>

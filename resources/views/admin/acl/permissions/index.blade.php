@@ -1,12 +1,12 @@
 @extends('layouts.admin')
 
 @section('style')
-    {!! Html::style('admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css',true) !!}
+    {!! Html::style('admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') !!}
 @endsection
 
 @section('js')
-    {!! Html::script('admin/bower_components/datatables.net/js/jquery.dataTables.min.js',true) !!}
-    {!! Html::script('admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js',true) !!}
+    {!! Html::script('admin/bower_components/datatables.net/js/jquery.dataTables.min.js') !!}
+    {!! Html::script('admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') !!}
 
     <script type="text/javascript">
 
@@ -28,11 +28,11 @@
             <h3 class="box-title">Dashboard / Access Control / Permissions</h3>
         </div>
         <div class="box-body">
-            <a href="{{ url('/settings',true) }}" class="btn btn-success"> Settings</a>
-            <a href="{{ url('/settings/access-control',true) }}" class="btn btn-success"> Access Control</a>
-            <a href="{{ url('/settings/access-control/permissions',true) }}" class="btn btn-success"> Permissions</a>
-            <a href="{{ url('/settings/access-control/roles',true) }}" class="btn btn-success"> Roles</a>
-            <a href="{{ url('/settings/access-control/user-management',true) }}" class="btn btn-success"> User Management</a>
+            <a href="{{ url('/settings') }}" class="btn btn-success"> Settings</a>
+            <a href="{{ url('/settings/access-control') }}" class="btn btn-success"> Access Control</a>
+            <a href="{{ url('/settings/access-control/permissions') }}" class="btn btn-success"> Permissions</a>
+            <a href="{{ url('/settings/access-control/roles') }}" class="btn btn-success"> Roles</a>
+            <a href="{{ url('/settings/access-control/user-management') }}" class="btn btn-success"> User Management</a>
         </div>
         <!-- /.box-body -->
     </div>
@@ -52,8 +52,8 @@
                 <!-- /.box-header -->
 
                 <div class="box-body">
-                    <a href="{{ url('/settings/access-control/roles/create',true) }}" class="btn btn-sm btn-danger"><i class="fa fa-plus-square"></i> Roles</a>
-                    <a href="{{ url('/settings/access-control/user-management/create',true) }}" class="btn btn-sm btn-danger"><i class="fa fa-plus-square"></i> User Controls</a>
+                    <a href="{{ url('/settings/access-control/roles/create') }}" class="btn btn-sm btn-danger"><i class="fa fa-plus-square"></i> Roles</a>
+                    <a href="{{ url('/settings/access-control/user-management/create') }}" class="btn btn-sm btn-danger"><i class="fa fa-plus-square"></i> User Controls</a>
                 </div>
 
                 <div style="overflow: auto" class="box-body">
