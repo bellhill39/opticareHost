@@ -1,0 +1,264 @@
+body{
+  text-align: center;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+span{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.whiteBackground{
+  background-color: white;
+  color:black;
+}
+
+.coloredBackground{
+  background-color: #c70039;
+  color:white;
+}
+
+/* header styles  */
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+
+/* navigation styles */
+
+@media (min-width: 800px) and (max-width: 850px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #1C2331!important;
+        }
+    }
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+
+
+
+/* services styles */
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #30475e;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #232020;
+}
+
+/* about us section */
+
+.aboutImage{
+  position: relative;
+  top: -3px;
+}
+
+.aboutText{
+  position: relative;
+  top: 122px;
+  padding-right:60px;
+  width: 535px;
+
+
+}
+
+/* about section slpit styling */
+
+
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+/* contact page */
+
+/* form setup */
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.form{
+display: none;
+text-align: left;
+}
+
+.status{
+  position: relative;
+  left: 129px;
+  color:red;
+
+}
+
+/* footer styles */
+
+#footer{
+  background-color: #1C2331;
+  color: white;
+
+}
+
+/* footer */
+  .social-icon {
+    margin: 20px 10px;
+  }
+
+  #footer a{
+    color: white;
+  }
+
+  #footer a:hover{
+    color:#035aa6;
+  }
+
+  #footer .container-fluid{
+    padding: 2% 1%;
+  }
+
+
+  /* scroll down indicator */
+
+  .sectionArrow {
+  position: relative;
+  opacity: 0.50;
+
+
+}
+
+.sectionArrow::before {
+  animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  color: #fff;
+  content: '╲╱';
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* text changer */
